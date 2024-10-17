@@ -1,2 +1,4 @@
 git rm --cached config.json
-git commit -m "移除 config.json 文件的追蹤"
+git commit -m "Remove config.json from tracking"
+git push
+*.json
