@@ -1,1 +1,1 @@
-git add -f config.json
+git rm --cached config.json
