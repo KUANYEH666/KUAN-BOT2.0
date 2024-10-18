@@ -14,6 +14,8 @@ module.exports = {
                 .setRequired(true)
         ),
     async execute(interaction) {
+        await interaction.deferReply(); // 延遲回應，確保有足夠時間生成圖表
+
         const symbol = interaction.options.getString('symbol');
 
         try {
@@ -29,7 +31,7 @@ module.exports = {
                 const date = response.data.match(/資料日期.*?<span.*?>(.*?)<\/span>/)[1];
 
                 const message = `📈 ${symbol} - ${fundName}\n淨值：${nav}\n漲跌幅：${change}\n更新日期：${date}`;
-                await interaction.reply(message);
+                await interaction.editReply(message);
             } else {
                 // 使用 FinMind API 獲取台灣股票數據
                 const stockUrl = `https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockPrice&data_id=${symbol}&start_date=2023-01-01&token=${apiToken}`;
@@ -37,13 +39,13 @@ module.exports = {
                 const stockData = response.data.data;
 
                 if (stockData.length === 0) {
-                    return interaction.reply(`無法找到代碼 ${symbol} 的股票數據`);
+                    return interaction.editReply(`無法找到代碼 ${symbol} 的股票數據`);
                 }
 
                 const todayData = stockData[stockData.length - 1];
                 const message = `📈 ${symbol}\n開盤：${todayData.open} 收盤：${todayData.close}\n最高：${todayData.max} 最低：${todayData.min}\n成交量：${todayData.Trading_Volume}`;
 
-                // 生成K線圖，設定 Chart.js 使用版本 3
+                // 生成 K 線圖
                 const chart = new QuickChart();
                 chart.setConfig({
                     type: 'candlestick',
@@ -51,15 +53,14 @@ module.exports = {
                         labels: stockData.map(d => d.date),
                         datasets: [
                             {
-                                label: `${symbol} K線圖`,
+                                label: `${symbol} K 線圖`,
                                 data: stockData.map(d => ({ o: d.open, h: d.max, l: d.min, c: d.close }))
                             }
                         ]
-                    },
-                    options: {
-                        version: 3  // 確保使用 Chart.js v3
                     }
                 });
+
+                chart.setVersion(3);  // 確保使用 Chart.js v3
 
                 const row = new ActionRowBuilder()
                 .addComponents(
@@ -77,7 +78,7 @@ module.exports = {
                         .setStyle(3)  // 使用數字 3 代表 Success
                 );
 
-                await interaction.reply({
+                await interaction.editReply({
                     content: message,
                     files: [{ attachment: chart.getUrl(), name: 'k_chart.png' }],
                     components: [row]
@@ -85,7 +86,7 @@ module.exports = {
             }
         } catch (error) {
             console.error(error);
-            await interaction.reply('發生錯誤，無法獲取數據。');
+            await interaction.editReply('發生錯誤，無法獲取數據。');
         }
     }
 };
