@@ -2,6 +2,7 @@ const fs = require('fs');
 const { Client, GatewayIntentBits, Collection, REST, Routes } = require('discord.js');
 const { clientId, guildId, token } = require('./config.json');
 
+
 // 創建機器人 client
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
@@ -71,6 +72,20 @@ client.on('interactionCreate', async interaction => {
     } catch (error) {
         console.error('執行指令時出錯：', error);
         await interaction.reply({ content: '執行指令時發生錯誤！', ephemeral: true });
+    }
+});
+client.on('interactionCreate', async interaction => {
+    // 處理按鈕事件
+    if (interaction.isButton()) {
+        const customId = interaction.customId;
+
+        if (customId === 'kd_chart') {
+            // 顯示 KD 線圖的按鈕處理邏輯
+            await interaction.reply('顯示 KD 線圖');
+        } else if (customId === 'ma_chart') {
+            // 顯示 MA 線圖的按鈕處理邏輯
+            await interaction.reply('顯示 MA 線圖');
+        }
     }
 });
 
