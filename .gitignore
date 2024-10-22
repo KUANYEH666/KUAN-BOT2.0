@@ -2,3 +2,5 @@
 config.json
 
 commands/.env
+
+node_modules
