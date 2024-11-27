@@ -2,7 +2,6 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const axios = require('axios');
 const { ActionRowBuilder, ButtonBuilder } = require('discord.js');
 const QuickChart = require('quickchart-js');
-const { apiToken } = require('../config.json');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -34,7 +33,7 @@ module.exports = {
                 await interaction.editReply(message);
             } else {
                 // 使用 FinMind API 獲取台灣股票數據
-                const stockUrl = `https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockPrice&data_id=${symbol}&start_date=2023-01-01&token=${apiToken}`;
+                const stockUrl = `https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockPrice&data_id=${symbol}&start_date=2023-01-01&token=${process.env.apiToken}`;
                 const response = await axios.get(stockUrl);
                 const stockData = response.data.data;
 

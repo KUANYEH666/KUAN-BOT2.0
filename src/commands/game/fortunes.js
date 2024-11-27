@@ -2,8 +2,8 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const fs = require('fs');
 const path = require('path');
 
-const fortunesFilePath = path.join(__dirname, 'JSON', 'fortunes.json');
-const userFortunesFilePath = path.join(__dirname, 'userFortunes.json');
+const fortunesFilePath = path.join(__dirname, '../../JSON/fortunes.json');
+const userFortunesFilePath = path.join(__dirname, '../../JSON/userFortunes.json');
 
 const fortunes = JSON.parse(fs.readFileSync(fortunesFilePath, 'utf-8'));
 
