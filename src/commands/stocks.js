@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const axios = require('axios');
 const { ActionRowBuilder, ButtonBuilder } = require('discord.js');
 const QuickChart = require('quickchart-js');
-const { apiToken } = require('../config.json'); // 從 config.json 中讀取 token
+const { apiToken } = require('../config.json');
 
 module.exports = {
     data: new SlashCommandBuilder()

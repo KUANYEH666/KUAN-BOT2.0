@@ -14,12 +14,10 @@ module.exports = {
         const symbol = interaction.options.getString('symbol');
 
         try {
-            // 獲取股票數據
             const stockData = await yahooFinance.quote(symbol);
             const { regularMarketPrice, regularMarketChange, regularMarketChangePercent, regularMarketOpen, regularMarketPreviousClose, regularMarketDayHigh, regularMarketDayLow, regularMarketVolume } = stockData;
             const updatedDate = new Date().toLocaleDateString();
 
-            // 構建股票訊息
             const stockMessage = `📈 ${symbol} - ${stockData.shortName}\n` +
                 `變動：TWD ${regularMarketChange.toFixed(2)} (${regularMarketChangePercent.toFixed(2)}%)\n` +
                 `開盤：${regularMarketOpen} | 收盤：${regularMarketPreviousClose}\n` +
@@ -27,7 +25,6 @@ module.exports = {
                 `成交量：${regularMarketVolume.toLocaleString()}\n` +
                 `更新日期：${updatedDate}`;
 
-            // 回覆股票訊息
             await interaction.reply({ content: stockMessage });
         } catch (error) {
             console.error(error);
