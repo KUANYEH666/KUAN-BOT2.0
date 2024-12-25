@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # Other
-.message-log.txt
+message-log.txt
