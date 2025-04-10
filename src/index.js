@@ -23,5 +23,5 @@ client.handleEvents();
 client.handleCommands();
 
 client.login(process.env.token).then(() => {
-    client.user.setActivity(`${process.env.bot_status}`, {type: ActivityType.Watching});
+    client.user.setActivity('空の箱', { type: ActivityType.Listening });;
 });;
