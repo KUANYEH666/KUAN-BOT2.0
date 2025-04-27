@@ -9,17 +9,18 @@ function shouldIgnoreMessage(text) {
   if (!trimmed) return true;
 
   const unicodeEmojiRegex = /^(?:\p{Emoji_Presentation}|\p{Extended_Pictographic}|\s)+$/u;
-  const customEmojiRegex = /^(<a?:\w+:\d+>\s*)+$/;
+  const customEmojiInTextRegex = /<a?:\w+:\d+>/; // ✅ 含有自訂 emoji
   const mentionRegex = /@(?:everyone|here|[!&]?\d+)/;
-  const urlRegex = /^https?:\/\/\S+$/i;
+  const urlRegex = /https?:\/\/\S+/i;
 
   return (
-    unicodeEmojiRegex.test(trimmed) || // 純 emoji
-    customEmojiRegex.test(trimmed) ||  // 純自訂 emoji
-    mentionRegex.test(trimmed) ||      // 含 @ 提及
-    urlRegex.test(trimmed)             // 純網址訊息
+    unicodeEmojiRegex.test(trimmed) ||     // 純 unicode emoji
+    customEmojiInTextRegex.test(trimmed) ||// 含自訂 emoji（不論在哪）
+    mentionRegex.test(trimmed) ||          // 含 @ 提及
+    urlRegex.test(trimmed)                 // 含網址
   );
 }
+
 
 
 // 內容出現次數統計（key: `${channelId}|${message}`）
