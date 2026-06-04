@@ -32,6 +32,74 @@ const COOLDOWN_MS = 60 * 1000;
 const MIN_REPEAT = 3;
 const MAX_REPEAT = 5;
 
+const CALC_PREFIX = '!cal';
+const ALLOWED_EXPRESSION = /^[\d+\-*/%().\s]+$/;
+
+function formatNumber(value) {
+  if (!Number.isFinite(value)) return null;
+
+  // Keep integer output clean (e.g., 2 instead of 2.0)
+  if (Number.isInteger(value)) return String(value);
+
+  // Limit floating noise from JavaScript math
+  return Number(value.toFixed(12)).toString();
+}
+
+function evaluateExpression(expression) {
+  const input = String(expression || '').trim();
+  if (!input) {
+    throw new Error('EMPTY_EXPRESSION');
+  }
+
+  if (input.length > 120) {
+    throw new Error('EXPRESSION_TOO_LONG');
+  }
+
+  if (!ALLOWED_EXPRESSION.test(input)) {
+    throw new Error('INVALID_CHARACTERS');
+  }
+
+  let result;
+  try {
+    result = Function(`"use strict"; return (${input});`)();
+  } catch {
+    throw new Error('INVALID_EXPRESSION');
+  }
+
+  if (!Number.isFinite(result)) {
+    throw new Error('NON_FINITE_RESULT');
+  }
+
+  return result;
+}
+
+async function handleCalculatorCommand(message, content) {
+  if (!content.toLowerCase().startsWith(CALC_PREFIX)) return false;
+
+  const expression = content.slice(CALC_PREFIX.length).trim();
+
+  try {
+    const result = evaluateExpression(expression);
+    const formatted = formatNumber(result);
+
+    if (!formatted) {
+      await message.reply('❌ 算式結果無效，請確認輸入內容。');
+      return true;
+    }
+
+    await message.reply(formatted);
+    return true;
+  } catch (error) {
+    if (error?.message === 'EMPTY_EXPRESSION') {
+      await message.reply('❌ 請在 !cal 後面輸入算式，例如：!cal 1+1');
+      return true;
+    }
+
+    await message.reply('❌ 算式格式錯誤，請確認後再試。');
+    return true;
+  }
+}
+
 function loadKeywords() {
   try {
     if (!fs.existsSync(KEYWORDS_PATH)) return {};
@@ -49,6 +117,9 @@ module.exports = {
 
     const content = message.content.trim();
     if (shouldIgnoreMessage(content)) return;
+
+    const handledByCalculator = await handleCalculatorCommand(message, content);
+    if (handledByCalculator) return;
 
     const channelId = message.channel.id;
     const now = Date.now();

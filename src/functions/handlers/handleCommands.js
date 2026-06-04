@@ -12,6 +12,10 @@ module.exports = (client) => {
                 .filter((file) => file.endsWith(".js"));
             for (const file of commandFiles) {
                 const command = require(`../../commands/${folder}/${file}`)
+                if (!command?.data || typeof command.execute !== 'function') {
+                    console.warn(`[指令] 略過無效檔案：${folder}/${file}`);
+                    continue;
+                }
                 commands.set(command.data.name, command);
                 commandArray.push(command.data.toJSON())
                 console.log(`[指令] ${command.data.name} ✅`)

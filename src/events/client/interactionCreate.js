@@ -1,4 +1,29 @@
-const { InteractionType } = require('discord.js');
+const { InteractionType, MessageFlags } = require('discord.js');
+
+async function safeHandleCommandError(interaction, error) {
+    console.error(error);
+
+    // Unknown interaction means token expired or was already handled elsewhere.
+    if (error?.code === 10062) return;
+
+    try {
+        if (interaction.deferred || interaction.replied) {
+            await interaction.followUp({
+                content: '發生錯誤，請向管理員回報',
+                flags: MessageFlags.Ephemeral
+            });
+        } else {
+            await interaction.reply({
+                content: '發生錯誤，請向管理員回報',
+                flags: MessageFlags.Ephemeral
+            });
+        }
+    } catch (replyError) {
+        if (replyError?.code !== 40060 && replyError?.code !== 10062) {
+            console.error(replyError);
+        }
+    }
+}
 
 module.exports = {
     name: 'interactionCreate',
@@ -12,14 +37,25 @@ module.exports = {
             try {
                 await command.execute(interaction, client);
             } catch (error) {
-                console.error(error);
-                // console.log(interaction.member)
-                await interaction.reply({
-                    content: `發生錯誤，請向管理員回報`,
-                    ephemeral: true
-                });
+                await safeHandleCommandError(interaction, error);
             }
         } else if (interaction.isButton()) {
+            const isBreakoutButton = interaction.customId?.startsWith('twstock_breakout:')
+                ;
+
+            if (isBreakoutButton) {
+                const breakoutCommand = client.commands.get('twstock_breakout');
+                if (breakoutCommand?.handleButton) {
+                    try {
+                        const handled = await breakoutCommand.handleButton(interaction, client);
+                        if (handled) return;
+                    } catch (error) {
+                        await safeHandleCommandError(interaction, error);
+                        return;
+                    }
+                }
+            }
+
             const { buttons } = client;
             const { customId } = interaction;
             const button = buttons.get(customId);
@@ -31,6 +67,19 @@ module.exports = {
                 console.error(error);
             }
         } else if (interaction.isStringSelectMenu()) {
+            if (interaction.customId?.startsWith('twstock_breakout:select:')) {
+                const breakoutCommand = client.commands.get('twstock_breakout');
+                if (breakoutCommand?.handleSelectMenu) {
+                    try {
+                        const handled = await breakoutCommand.handleSelectMenu(interaction, client);
+                        if (handled) return;
+                    } catch (error) {
+                        await safeHandleCommandError(interaction, error);
+                        return;
+                    }
+                }
+            }
+
             const { selectMenus } = client;
             const { customId } = interaction;
             const menu = selectMenus.get(customId);

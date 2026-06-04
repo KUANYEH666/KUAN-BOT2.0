@@ -1,0 +1,782 @@
+{
+  "updatedAt": "2026-06-04T10:34:54.844Z",
+  "byTicker": {
+    "5356.TWO": {
+      "updatedAt": "2026-04-07T17:22:15.956Z",
+      "symbol": "5356",
+      "trailingEps": 0.28,
+      "revenueGrowth": 0.0649269498588205,
+      "margin": null
+    },
+    "4174.TWO": {
+      "updatedAt": "2026-04-07T17:22:17.247Z",
+      "symbol": "4174",
+      "trailingEps": -9.4,
+      "revenueGrowth": -0.8549048182894617,
+      "margin": null
+    },
+    "6469.TWO": {
+      "updatedAt": "2026-04-07T17:22:18.587Z",
+      "symbol": "6469",
+      "trailingEps": 0.99,
+      "revenueGrowth": 0.04487348657848249,
+      "margin": null
+    },
+    "2734.TWO": {
+      "updatedAt": "2026-04-07T17:22:19.917Z",
+      "symbol": "2734",
+      "trailingEps": -0.31,
+      "revenueGrowth": 0.8461752413025829,
+      "margin": null
+    },
+    "4401.TWO": {
+      "updatedAt": "2026-04-07T17:22:22.573Z",
+      "symbol": "4401",
+      "trailingEps": 0.25,
+      "revenueGrowth": -0.3985759511820236,
+      "margin": null
+    },
+    "1605.TW": {
+      "updatedAt": "2026-04-08T15:38:00.241Z",
+      "symbol": "1605",
+      "trailingEps": 0.23,
+      "revenueGrowth": -0.23096498707754137,
+      "margin": null
+    },
+    "2371.TW": {
+      "updatedAt": "2026-04-08T15:38:06.855Z",
+      "symbol": "2371",
+      "trailingEps": -5.85,
+      "revenueGrowth": -0.019362728982286338,
+      "margin": null
+    },
+    "8422.TW": {
+      "updatedAt": "2026-04-08T15:38:10.801Z",
+      "symbol": "8422",
+      "trailingEps": -9.18,
+      "revenueGrowth": 0.015031125880340768,
+      "margin": null
+    },
+    "8054.TWO": {
+      "updatedAt": "2026-04-08T15:39:24.150Z",
+      "symbol": "8054",
+      "trailingEps": -0.77,
+      "revenueGrowth": 2.324900355005319,
+      "margin": null
+    },
+    "8374.TW": {
+      "updatedAt": "2026-04-08T15:39:43.727Z",
+      "symbol": "8374",
+      "trailingEps": -1.25,
+      "revenueGrowth": 0.44440849891467693,
+      "margin": null
+    },
+    "3051.TW": {
+      "updatedAt": "2026-04-08T15:39:57.141Z",
+      "symbol": "3051",
+      "trailingEps": 0.46,
+      "revenueGrowth": -0.14914288870748968,
+      "margin": null
+    },
+    "1587.TW": {
+      "updatedAt": "2026-04-08T15:40:02.399Z",
+      "symbol": "1587",
+      "trailingEps": 0.13,
+      "revenueGrowth": 0.4277322206324494,
+      "margin": null
+    },
+    "6541.TW": {
+      "updatedAt": "2026-04-08T15:40:12.711Z",
+      "symbol": "6541",
+      "trailingEps": -1.6,
+      "revenueGrowth": 2.187123018656193,
+      "margin": null
+    },
+    "3484.TWO": {
+      "updatedAt": "2026-04-08T15:40:20.628Z",
+      "symbol": "3484",
+      "trailingEps": 0.92,
+      "revenueGrowth": -0.048341189963660505,
+      "margin": null
+    },
+    "2228.TW": {
+      "updatedAt": "2026-04-08T15:20:57.240Z",
+      "symbol": "2228",
+      "trailingEps": 1.19,
+      "revenueGrowth": -0.05312748627641939,
+      "margin": null
+    },
+    "1617.TW": {
+      "updatedAt": "2026-04-08T15:20:59.999Z",
+      "symbol": "1617",
+      "trailingEps": 1.06,
+      "revenueGrowth": -0.295821701868308,
+      "margin": null
+    },
+    "7715.TWO": {
+      "updatedAt": "2026-04-08T15:21:01.612Z",
+      "symbol": "7715",
+      "trailingEps": 0.61,
+      "revenueGrowth": -0.40852283367121794,
+      "margin": null
+    },
+    "6264.TWO": {
+      "updatedAt": "2026-04-08T15:21:03.225Z",
+      "symbol": "6264",
+      "trailingEps": 0.18,
+      "revenueGrowth": -0.690864960282436,
+      "margin": null
+    },
+    "6283.TW": {
+      "updatedAt": "2026-04-17T10:25:54.683Z",
+      "symbol": "6283",
+      "trailingEps": -0.02,
+      "revenueGrowth": 0.3164344786204378,
+      "margin": null
+    },
+    "4102.TWO": {
+      "updatedAt": "2026-04-08T15:21:06.410Z",
+      "symbol": "4102",
+      "trailingEps": -0.07,
+      "revenueGrowth": -0.0917178222803663,
+      "margin": null
+    },
+    "3557.TW": {
+      "updatedAt": "2026-04-08T15:21:07.737Z",
+      "symbol": "3557",
+      "trailingEps": 0.28,
+      "revenueGrowth": -0.3747138822019937,
+      "margin": null
+    },
+    "3191.TWO": {
+      "updatedAt": "2026-04-08T15:21:09.497Z",
+      "symbol": "3191",
+      "trailingEps": -0.04,
+      "revenueGrowth": -0.3276212916354289,
+      "margin": null
+    },
+    "4581.TW": {
+      "updatedAt": "2026-04-08T15:21:10.767Z",
+      "symbol": "4581",
+      "trailingEps": 0.82,
+      "revenueGrowth": 0.059643387444942166,
+      "margin": null
+    },
+    "2303.TW": {
+      "updatedAt": "2026-04-08T15:37:47.211Z",
+      "symbol": "2303",
+      "trailingEps": 0.8,
+      "revenueGrowth": 0.0632978838888472,
+      "margin": null
+    },
+    "2883.TW": {
+      "updatedAt": "2026-04-08T15:37:51.137Z",
+      "symbol": "2883",
+      "trailingEps": 0.65,
+      "revenueGrowth": -0.028222897299753268,
+      "margin": null
+    },
+    "1101.TW": {
+      "updatedAt": "2026-04-08T15:37:54.923Z",
+      "symbol": "1101",
+      "trailingEps": -0.32,
+      "revenueGrowth": -0.0580699929522584,
+      "margin": null
+    },
+    "1802.TW": {
+      "updatedAt": "2026-04-08T15:37:57.613Z",
+      "symbol": "1802",
+      "trailingEps": 0.13,
+      "revenueGrowth": -0.17593856689907275,
+      "margin": null
+    },
+    "3231.TW": {
+      "updatedAt": "2026-04-08T15:37:58.923Z",
+      "symbol": "3231",
+      "trailingEps": 2.61,
+      "revenueGrowth": 1.1769703796203348,
+      "margin": null
+    },
+    "6919.TW": {
+      "updatedAt": "2026-04-08T15:38:02.896Z",
+      "symbol": "6919",
+      "trailingEps": 0.05,
+      "revenueGrowth": null,
+      "margin": null
+    },
+    "2884.TW": {
+      "updatedAt": "2026-04-08T15:38:04.202Z",
+      "symbol": "2884",
+      "trailingEps": 0.5,
+      "revenueGrowth": 0.04006442593430329,
+      "margin": null
+    },
+    "2327.TW": {
+      "updatedAt": "2026-04-08T15:38:05.522Z",
+      "symbol": "2327",
+      "trailingEps": 3.29,
+      "revenueGrowth": 0.17967620053419733,
+      "margin": null
+    },
+    "2881.TW": {
+      "updatedAt": "2026-04-08T15:38:12.164Z",
+      "symbol": "2881",
+      "trailingEps": 2.14,
+      "revenueGrowth": -0.22968012154775388,
+      "margin": null
+    },
+    "2301.TW": {
+      "updatedAt": "2026-04-08T15:38:13.507Z",
+      "symbol": "2301",
+      "trailingEps": 1.7,
+      "revenueGrowth": 0.1736164188915376,
+      "margin": null
+    },
+    "2892.TW": {
+      "updatedAt": "2026-04-08T15:38:14.800Z",
+      "symbol": "2892",
+      "trailingEps": 0.36,
+      "revenueGrowth": -0.062495191751759875,
+      "margin": null
+    },
+    "6005.TW": {
+      "updatedAt": "2026-04-08T15:38:16.108Z",
+      "symbol": "6005",
+      "trailingEps": 0.77,
+      "revenueGrowth": 0.5445721239640402,
+      "margin": null
+    },
+    "6239.TW": {
+      "updatedAt": "2026-04-08T15:38:18.825Z",
+      "symbol": "6239",
+      "trailingEps": 2.52,
+      "revenueGrowth": 0.3463349841101429,
+      "margin": null
+    },
+    "5498.TWO": {
+      "updatedAt": "2026-04-08T15:38:24.043Z",
+      "symbol": "5498",
+      "trailingEps": 0.17,
+      "revenueGrowth": 0.4382550472992342,
+      "margin": null
+    },
+    "3535.TW": {
+      "updatedAt": "2026-04-08T15:38:25.385Z",
+      "symbol": "3535",
+      "trailingEps": 0.67,
+      "revenueGrowth": 48.41748304446119,
+      "margin": null
+    },
+    "2867.TW": {
+      "updatedAt": "2026-04-08T15:38:29.259Z",
+      "symbol": "2867",
+      "trailingEps": 0.04,
+      "revenueGrowth": -0.30186530697802305,
+      "margin": null
+    },
+    "3324.TWO": {
+      "updatedAt": "2026-04-08T15:38:34.352Z",
+      "symbol": "3324",
+      "trailingEps": 10.13,
+      "revenueGrowth": 0.9172552203909102,
+      "margin": null
+    },
+    "2377.TW": {
+      "updatedAt": "2026-04-08T15:38:36.919Z",
+      "symbol": "2377",
+      "trailingEps": 1.93,
+      "revenueGrowth": -0.028989872702209367,
+      "margin": null
+    },
+    "3044.TW": {
+      "updatedAt": "2026-04-08T15:38:38.198Z",
+      "symbol": "3044",
+      "trailingEps": 4.7,
+      "revenueGrowth": 0.10677442928064383,
+      "margin": null
+    },
+    "8069.TWO": {
+      "updatedAt": "2026-04-08T15:38:42.118Z",
+      "symbol": "8069",
+      "trailingEps": 0.97,
+      "revenueGrowth": 0.00627511000573943,
+      "margin": null
+    },
+    "2352.TW": {
+      "updatedAt": "2026-04-08T15:38:43.450Z",
+      "symbol": "2352",
+      "trailingEps": 0.05,
+      "revenueGrowth": 0.10345414668704811,
+      "margin": null
+    },
+    "1560.TW": {
+      "updatedAt": "2026-04-08T15:38:47.308Z",
+      "symbol": "1560",
+      "trailingEps": 3.26,
+      "revenueGrowth": 0.3114608347389675,
+      "margin": null
+    },
+    "2606.TW": {
+      "updatedAt": "2026-04-08T15:38:55.284Z",
+      "symbol": "2606",
+      "trailingEps": 1.55,
+      "revenueGrowth": 0.16233115203445384,
+      "margin": null
+    },
+    "3374.TWO": {
+      "updatedAt": "2026-04-08T15:38:57.901Z",
+      "symbol": "3374",
+      "trailingEps": 1.9,
+      "revenueGrowth": 0.157186145762238,
+      "margin": null
+    },
+    "2542.TW": {
+      "updatedAt": "2026-04-08T15:39:00.490Z",
+      "symbol": "2542",
+      "trailingEps": 1.15,
+      "revenueGrowth": 7.7469954366549505,
+      "margin": null
+    },
+    "2328.TW": {
+      "updatedAt": "2026-04-08T15:39:01.841Z",
+      "symbol": "2328",
+      "trailingEps": 0.34,
+      "revenueGrowth": -0.34319140292233685,
+      "margin": null
+    },
+    "2417.TW": {
+      "updatedAt": "2026-04-08T15:39:03.181Z",
+      "symbol": "2417",
+      "trailingEps": 0.61,
+      "revenueGrowth": 0.3299636697594641,
+      "margin": null
+    },
+    "3709.TWO": {
+      "updatedAt": "2026-04-08T15:39:10.971Z",
+      "symbol": "3709",
+      "trailingEps": 3.5,
+      "revenueGrowth": -0.22973300449371872,
+      "margin": null
+    },
+    "6126.TWO": {
+      "updatedAt": "2026-04-08T15:39:12.304Z",
+      "symbol": "6126",
+      "trailingEps": 0.05,
+      "revenueGrowth": 0.40649096494700515,
+      "margin": null
+    },
+    "8074.TWO": {
+      "updatedAt": "2026-04-08T15:39:14.957Z",
+      "symbol": "8074",
+      "trailingEps": 0.54,
+      "revenueGrowth": 0.31681022999733593,
+      "margin": null
+    },
+    "6173.TWO": {
+      "updatedAt": "2026-04-08T15:39:16.305Z",
+      "symbol": "6173",
+      "trailingEps": 1.14,
+      "revenueGrowth": 0.12694606046237364,
+      "margin": null
+    },
+    "2637.TW": {
+      "updatedAt": "2026-04-08T15:39:18.946Z",
+      "symbol": "2637",
+      "trailingEps": 2.83,
+      "revenueGrowth": 0.3490742045045468,
+      "margin": null
+    },
+    "6446.TW": {
+      "updatedAt": "2026-04-08T15:39:20.251Z",
+      "symbol": "6446",
+      "trailingEps": 3.98,
+      "revenueGrowth": 0.6435054632565397,
+      "margin": null
+    },
+    "6412.TW": {
+      "updatedAt": "2026-04-08T15:39:21.599Z",
+      "symbol": "6412",
+      "trailingEps": 1.17,
+      "revenueGrowth": -0.051903519402305566,
+      "margin": null
+    },
+    "2836.TW": {
+      "updatedAt": "2026-04-08T15:39:22.865Z",
+      "symbol": "2836",
+      "trailingEps": 0.19,
+      "revenueGrowth": 0.04566366415256402,
+      "margin": null
+    },
+    "2536.TW": {
+      "updatedAt": "2026-04-08T15:39:29.379Z",
+      "symbol": "2536",
+      "trailingEps": 2.12,
+      "revenueGrowth": -0.617453323173211,
+      "margin": null
+    },
+    "3056.TW": {
+      "updatedAt": "2026-04-08T15:39:30.705Z",
+      "symbol": "3056",
+      "trailingEps": -0.01,
+      "revenueGrowth": -0.9689887840553674,
+      "margin": null
+    },
+    "5234.TW": {
+      "updatedAt": "2026-04-08T15:39:31.982Z",
+      "symbol": "5234",
+      "trailingEps": 2.04,
+      "revenueGrowth": 0.05520206876965007,
+      "margin": null
+    },
+    "6134.TWO": {
+      "updatedAt": "2026-04-08T15:39:33.284Z",
+      "symbol": "6134",
+      "trailingEps": -0.02,
+      "revenueGrowth": 0.3545609635181243,
+      "margin": null
+    },
+    "3059.TW": {
+      "updatedAt": "2026-04-08T15:39:34.631Z",
+      "symbol": "3059",
+      "trailingEps": 0.26,
+      "revenueGrowth": 0.10873365559732193,
+      "margin": null
+    },
+    "2511.TW": {
+      "updatedAt": "2026-04-08T15:39:37.220Z",
+      "symbol": "2511",
+      "trailingEps": 0.13,
+      "revenueGrowth": 0.9040182248313327,
+      "margin": null
+    },
+    "2820.TW": {
+      "updatedAt": "2026-04-08T15:39:39.818Z",
+      "symbol": "2820",
+      "trailingEps": 0.29,
+      "revenueGrowth": 0.30755993099245554,
+      "margin": null
+    },
+    "4915.TW": {
+      "updatedAt": "2026-04-08T15:39:42.398Z",
+      "symbol": "4915",
+      "trailingEps": 0.95,
+      "revenueGrowth": -0.1711438144658279,
+      "margin": null
+    },
+    "8103.TW": {
+      "updatedAt": "2026-04-08T15:39:45.043Z",
+      "symbol": "8103",
+      "trailingEps": 1.45,
+      "revenueGrowth": -0.029655394174897987,
+      "margin": null
+    },
+    "6143.TWO": {
+      "updatedAt": "2026-04-08T15:39:46.385Z",
+      "symbol": "6143",
+      "trailingEps": 2.74,
+      "revenueGrowth": 0.17324258418596358,
+      "margin": null
+    },
+    "3008.TW": {
+      "updatedAt": "2026-04-08T15:39:47.812Z",
+      "symbol": "3008",
+      "trailingEps": 50.35,
+      "revenueGrowth": 0.10766324227836749,
+      "margin": null
+    },
+    "7792.TWO": {
+      "updatedAt": "2026-04-08T15:39:49.117Z",
+      "symbol": "7792",
+      "trailingEps": 2.69,
+      "revenueGrowth": null,
+      "margin": null
+    },
+    "3014.TW": {
+      "updatedAt": "2026-04-08T15:39:51.796Z",
+      "symbol": "3014",
+      "trailingEps": 1.89,
+      "revenueGrowth": 0.07646506711024657,
+      "margin": null
+    },
+    "3055.TW": {
+      "updatedAt": "2026-04-08T15:39:54.417Z",
+      "symbol": "3055",
+      "trailingEps": -0.95,
+      "revenueGrowth": -0.17894842666130492,
+      "margin": null
+    },
+    "3052.TW": {
+      "updatedAt": "2026-04-08T15:39:55.765Z",
+      "symbol": "3052",
+      "trailingEps": 0.15,
+      "revenueGrowth": -0.11650763452999667,
+      "margin": null
+    },
+    "8072.TW": {
+      "updatedAt": "2026-04-08T15:39:58.452Z",
+      "symbol": "8072",
+      "trailingEps": 0.54,
+      "revenueGrowth": 0.40013897370028007,
+      "margin": null
+    },
+    "6716.TWO": {
+      "updatedAt": "2026-04-08T15:39:59.764Z",
+      "symbol": "6716",
+      "trailingEps": 1,
+      "revenueGrowth": 0.4668516638953074,
+      "margin": null
+    },
+    "6835.TW": {
+      "updatedAt": "2026-04-08T15:40:07.573Z",
+      "symbol": "6835",
+      "trailingEps": 0.05,
+      "revenueGrowth": -0.1269173888067272,
+      "margin": null
+    },
+    "1342.TW": {
+      "updatedAt": "2026-04-08T15:40:08.880Z",
+      "symbol": "1342",
+      "trailingEps": 1.6,
+      "revenueGrowth": 0.3174455990762945,
+      "margin": null
+    },
+    "5426.TWO": {
+      "updatedAt": "2026-04-08T15:40:14.093Z",
+      "symbol": "5426",
+      "trailingEps": 0.13,
+      "revenueGrowth": -0.055854813636527965,
+      "margin": null
+    },
+    "6156.TWO": {
+      "updatedAt": "2026-04-08T15:40:17.959Z",
+      "symbol": "6156",
+      "trailingEps": 0.28,
+      "revenueGrowth": -0.15024326312017952,
+      "margin": null
+    },
+    "8227.TWO": {
+      "updatedAt": "2026-04-08T15:40:21.888Z",
+      "symbol": "8227",
+      "trailingEps": 0.66,
+      "revenueGrowth": 0.5405498770600069,
+      "margin": null
+    },
+    "3362.TWO": {
+      "updatedAt": "2026-04-08T15:40:23.168Z",
+      "symbol": "3362",
+      "trailingEps": 0.09,
+      "revenueGrowth": -0.0872230654616852,
+      "margin": null
+    },
+    "2923.TW": {
+      "updatedAt": "2026-04-08T15:40:24.440Z",
+      "symbol": "2923",
+      "trailingEps": -3.17,
+      "revenueGrowth": 0.2887236389288373,
+      "margin": null
+    },
+    "8081.TW": {
+      "updatedAt": "2026-04-08T15:40:26.998Z",
+      "symbol": "8081",
+      "trailingEps": 4.71,
+      "revenueGrowth": -0.009342094305595563,
+      "margin": null
+    },
+    "3094.TW": {
+      "updatedAt": "2026-04-08T15:40:29.571Z",
+      "symbol": "3094",
+      "trailingEps": 0.09,
+      "revenueGrowth": -0.10371460095623392,
+      "margin": null
+    },
+    "2462.TW": {
+      "updatedAt": "2026-04-08T15:40:30.902Z",
+      "symbol": "2462",
+      "trailingEps": 0.25,
+      "revenueGrowth": -0.11859725283344949,
+      "margin": null
+    },
+    "8121.TWO": {
+      "updatedAt": "2026-04-17T10:25:48.062Z",
+      "symbol": "8121",
+      "trailingEps": 0.09,
+      "revenueGrowth": 0.18566164028127702,
+      "margin": null
+    },
+    "3272.TWO": {
+      "updatedAt": "2026-04-17T10:25:49.323Z",
+      "symbol": "3272",
+      "trailingEps": -2.71,
+      "revenueGrowth": -0.07716773894395178,
+      "margin": null
+    },
+    "6603.TWO": {
+      "updatedAt": "2026-04-17T10:25:50.674Z",
+      "symbol": "6603",
+      "trailingEps": 0.34,
+      "revenueGrowth": 0.009504380944863243,
+      "margin": null
+    },
+    "5474.TWO": {
+      "updatedAt": "2026-04-17T10:25:52.012Z",
+      "symbol": "5474",
+      "trailingEps": 1.36,
+      "revenueGrowth": -0.015491801299234467,
+      "margin": null
+    },
+    "6204.TWO": {
+      "updatedAt": "2026-04-17T10:25:53.364Z",
+      "symbol": "6204",
+      "trailingEps": 0.2,
+      "revenueGrowth": -0.08251954565570144,
+      "margin": null
+    },
+    "6923.TW": {
+      "updatedAt": "2026-04-17T10:25:57.237Z",
+      "symbol": "6923",
+      "trailingEps": 0.95,
+      "revenueGrowth": 0.04273921353340653,
+      "margin": null
+    },
+    "2061.TWO": {
+      "updatedAt": "2026-05-08T04:32:14.331Z",
+      "symbol": "2061",
+      "trailingEps": 0.11,
+      "revenueGrowth": 0.011224055685798854,
+      "margin": null
+    },
+    "3027.TW": {
+      "updatedAt": "2026-06-04T10:33:56.461Z",
+      "symbol": "3027",
+      "trailingEps": 0.05,
+      "revenueGrowth": -0.7948420813451488,
+      "margin": null
+    },
+    "8277.TWO": {
+      "updatedAt": "2026-06-04T10:33:59.182Z",
+      "symbol": "8277",
+      "trailingEps": -0.09,
+      "revenueGrowth": -0.5895422970786944,
+      "margin": null
+    },
+    "1515.TW": {
+      "updatedAt": "2026-06-04T10:34:02.778Z",
+      "symbol": "1515",
+      "trailingEps": 0.07,
+      "revenueGrowth": -0.19274026473470704,
+      "margin": null
+    },
+    "1618.TW": {
+      "updatedAt": "2026-06-04T10:34:05.822Z",
+      "symbol": "1618",
+      "trailingEps": 1.57,
+      "revenueGrowth": -0.7695655211649981,
+      "margin": null
+    },
+    "912000.TW": {
+      "updatedAt": "2026-06-04T10:34:11.565Z",
+      "symbol": "912000",
+      "trailingEps": null,
+      "revenueGrowth": -0.1379284390376998,
+      "margin": null
+    },
+    "5530.TWO": {
+      "updatedAt": "2026-06-04T10:34:15.566Z",
+      "symbol": "5530",
+      "trailingEps": 0.95,
+      "revenueGrowth": 0.26129998780980734,
+      "margin": null
+    },
+    "3149.TW": {
+      "updatedAt": "2026-06-04T10:34:18.641Z",
+      "symbol": "3149",
+      "trailingEps": -0.37,
+      "revenueGrowth": -0.1915878083076806,
+      "margin": null
+    },
+    "1781.TWO": {
+      "updatedAt": "2026-06-04T10:34:21.059Z",
+      "symbol": "1781",
+      "trailingEps": -0.19,
+      "revenueGrowth": -0.03227356100969517,
+      "margin": null
+    },
+    "6573.TW": {
+      "updatedAt": "2026-06-04T10:34:24.904Z",
+      "symbol": "6573",
+      "trailingEps": -0.4,
+      "revenueGrowth": -0.1963791454884002,
+      "margin": null
+    },
+    "4999.TW": {
+      "updatedAt": "2026-06-04T10:34:29.672Z",
+      "symbol": "4999",
+      "trailingEps": -0.54,
+      "revenueGrowth": -0.15212278146409883,
+      "margin": null
+    },
+    "2514.TW": {
+      "updatedAt": "2026-06-04T10:34:35.575Z",
+      "symbol": "2514",
+      "trailingEps": 0.42,
+      "revenueGrowth": 0.02818351822542227,
+      "margin": null
+    },
+    "3083.TWO": {
+      "updatedAt": "2026-06-04T10:34:38.975Z",
+      "symbol": "3083",
+      "trailingEps": 0.3,
+      "revenueGrowth": 0.022544361485503733,
+      "margin": null
+    },
+    "1336.TWO": {
+      "updatedAt": "2026-06-04T10:34:41.733Z",
+      "symbol": "1336",
+      "trailingEps": 0.1,
+      "revenueGrowth": -0.08904244287910752,
+      "margin": null
+    },
+    "2072.TW": {
+      "updatedAt": "2026-06-04T10:34:43.213Z",
+      "symbol": "2072",
+      "trailingEps": 5.26,
+      "revenueGrowth": null,
+      "margin": null
+    },
+    "6176.TW": {
+      "updatedAt": "2026-06-04T10:34:45.106Z",
+      "symbol": "6176",
+      "trailingEps": 2.29,
+      "revenueGrowth": -0.08504380509583892,
+      "margin": null
+    },
+    "3570.TWO": {
+      "updatedAt": "2026-06-04T10:34:46.638Z",
+      "symbol": "3570",
+      "trailingEps": 4.12,
+      "revenueGrowth": 0.2223732463669622,
+      "margin": null
+    },
+    "2457.TW": {
+      "updatedAt": "2026-06-04T10:34:48.253Z",
+      "symbol": "2457",
+      "trailingEps": -0.34,
+      "revenueGrowth": -0.09399185879916126,
+      "margin": null
+    },
+    "6757.TW": {
+      "updatedAt": "2026-06-04T10:34:49.848Z",
+      "symbol": "6757",
+      "trailingEps": 2.91,
+      "revenueGrowth": 0.2646470446376279,
+      "margin": null
+    },
+    "1319.TW": {
+      "updatedAt": "2026-06-04T10:34:53.644Z",
+      "symbol": "1319",
+      "trailingEps": 1.62,
+      "revenueGrowth": -0.14111882718688332,
+      "margin": null
+    }
+  }
+}

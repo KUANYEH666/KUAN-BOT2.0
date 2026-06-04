@@ -1,0 +1,861 @@
+{
+  "cachedAt": "2026-06-04T14:05:10.762Z",
+  "updatedAt": "2025-10-01T11:37:42+08:00",
+  "payload": {
+    "UpdateTime": "2025-10-01T11:37:42+08:00",
+    "UpdateInterval": 14400,
+    "SrcUpdateTime": "2025-09-23T17:30:13+08:00",
+    "SrcUpdateInterval": -1,
+    "EffectiveDate": "2025-06-23",
+    "ExpireDate": "",
+    "SrcVersion": "PTX票價檔2025-06-23",
+    "ODFares": [
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 1,
+        "TrainType": 7,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 823
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 412
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 412
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 412
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 412
+          }
+        ],
+        "TravelDistance": 776.4
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 0,
+        "TrainType": 3,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 317
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 159
+          }
+        ],
+        "TravelDistance": 99.5
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 0,
+        "TrainType": 11,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 317
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 159
+          }
+        ],
+        "TravelDistance": 99.5
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 0,
+        "TrainType": 10,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 204
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 102
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 102
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 102
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 102
+          }
+        ],
+        "TravelDistance": 99.5
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 1,
+        "TrainType": 4,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1455
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 728
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 728
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 728
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 728
+          }
+        ],
+        "TravelDistance": 776.4
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 1,
+        "TrainType": 1,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1885
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 943
+          }
+        ],
+        "TravelDistance": 776.4
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 1,
+        "TrainType": 5,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1215
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 608
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 608
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 608
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 608
+          }
+        ],
+        "TravelDistance": 776.4
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 1,
+        "TrainType": 11,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1885
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 943
+          }
+        ],
+        "TravelDistance": 776.4
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 1,
+        "TrainType": 3,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1885
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 943
+          }
+        ],
+        "TravelDistance": 776.4
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 1,
+        "TrainType": 2,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1885
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 943
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 943
+          }
+        ],
+        "TravelDistance": 776.4
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 1,
+        "TrainType": 6,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1215
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 608
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 608
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 608
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 608
+          }
+        ],
+        "TravelDistance": 776.4
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 0,
+        "TrainType": 4,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 244
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 122
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 122
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 122
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 122
+          }
+        ],
+        "TravelDistance": 99.5
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 0,
+        "TrainType": 5,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 204
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 102
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 102
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 102
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 102
+          }
+        ],
+        "TravelDistance": 99.5
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 1,
+        "TrainType": 10,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1215
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 608
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 608
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 608
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 608
+          }
+        ],
+        "TravelDistance": 776.4
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 0,
+        "TrainType": 7,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 105
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 53
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 53
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 53
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 53
+          }
+        ],
+        "TravelDistance": 99.5
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 0,
+        "TrainType": 6,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 204
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 102
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 102
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 102
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 102
+          }
+        ],
+        "TravelDistance": 99.5
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 0,
+        "TrainType": 2,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 317
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 159
+          }
+        ],
+        "TravelDistance": 99.5
+      },
+      {
+        "OriginStationID": "3160",
+        "OriginStationName": {
+          "Zh_tw": "苗栗",
+          "En": "Miaoli"
+        },
+        "DestinationStationID": "1040",
+        "DestinationStationName": {
+          "Zh_tw": "樹林",
+          "En": "Shulin"
+        },
+        "Direction": 0,
+        "TrainType": 1,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 317
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 159
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 159
+          }
+        ],
+        "TravelDistance": 99.5
+      }
+    ]
+  }
+}

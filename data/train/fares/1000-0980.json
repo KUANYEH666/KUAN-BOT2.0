@@ -1,0 +1,861 @@
+{
+  "cachedAt": "2026-06-04T14:08:24.258Z",
+  "updatedAt": "2025-10-01T11:37:42+08:00",
+  "payload": {
+    "UpdateTime": "2025-10-01T11:37:42+08:00",
+    "UpdateInterval": 14400,
+    "SrcUpdateTime": "2025-09-23T17:30:13+08:00",
+    "SrcUpdateInterval": -1,
+    "EffectiveDate": "2025-06-23",
+    "ExpireDate": "",
+    "SrcVersion": "PTX票價檔2025-06-23",
+    "ODFares": [
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 1,
+        "TrainType": 7,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 919
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 460
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 460
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 460
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 460
+          }
+        ],
+        "TravelDistance": 866.7
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 1,
+        "TrainType": 2,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 2083
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 1042
+          }
+        ],
+        "TravelDistance": 866.7
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 0,
+        "TrainType": 4,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 26
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 13
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 13
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 13
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 13
+          }
+        ],
+        "TravelDistance": 9.2
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 0,
+        "TrainType": 5,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 22
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 11
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 11
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 11
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 11
+          }
+        ],
+        "TravelDistance": 9.2
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 0,
+        "TrainType": 2,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 34
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 17
+          }
+        ],
+        "TravelDistance": 9.2
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 1,
+        "TrainType": 4,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1609
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 805
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 805
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 805
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 805
+          }
+        ],
+        "TravelDistance": 866.7
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 0,
+        "TrainType": 1,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 34
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 17
+          }
+        ],
+        "TravelDistance": 9.2
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 0,
+        "TrainType": 3,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 34
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 17
+          }
+        ],
+        "TravelDistance": 9.2
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 0,
+        "TrainType": 10,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 22
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 11
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 11
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 11
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 11
+          }
+        ],
+        "TravelDistance": 9.2
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 1,
+        "TrainType": 5,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1344
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 672
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 672
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 672
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 672
+          }
+        ],
+        "TravelDistance": 866.7
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 1,
+        "TrainType": 3,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 2083
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 1042
+          }
+        ],
+        "TravelDistance": 866.7
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 1,
+        "TrainType": 11,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 2083
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 1042
+          }
+        ],
+        "TravelDistance": 866.7
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 0,
+        "TrainType": 7,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 11
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 6
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 6
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 6
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 6
+          }
+        ],
+        "TravelDistance": 9.2
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 1,
+        "TrainType": 1,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 2083
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 1042
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 1042
+          }
+        ],
+        "TravelDistance": 866.7
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 1,
+        "TrainType": 6,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1344
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 672
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 672
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 672
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 672
+          }
+        ],
+        "TravelDistance": 866.7
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 0,
+        "TrainType": 11,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 34
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 17
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 17
+          }
+        ],
+        "TravelDistance": 9.2
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 1,
+        "TrainType": 10,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 1344
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 672
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 672
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 672
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 672
+          }
+        ],
+        "TravelDistance": 866.7
+      },
+      {
+        "OriginStationID": "1000",
+        "OriginStationName": {
+          "Zh_tw": "臺北",
+          "En": "Taipei"
+        },
+        "DestinationStationID": "0980",
+        "DestinationStationName": {
+          "Zh_tw": "南港",
+          "En": "Nangang"
+        },
+        "Direction": 0,
+        "TrainType": 6,
+        "Fares": [
+          {
+            "TicketType": 1,
+            "FareClass": 1,
+            "CabinClass": 1,
+            "Price": 22
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 3,
+            "CabinClass": 1,
+            "Price": 11
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 4,
+            "CabinClass": 1,
+            "Price": 11
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 5,
+            "CabinClass": 1,
+            "Price": 11
+          },
+          {
+            "TicketType": 1,
+            "FareClass": 7,
+            "CabinClass": 1,
+            "Price": 11
+          }
+        ],
+        "TravelDistance": 9.2
+      }
+    ]
+  }
+}
