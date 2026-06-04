@@ -173,8 +173,6 @@ src/
 
 ## 注意事項
 
-- `.env` 不要提交到 Git，避免洩漏 Discord Token、OpenAI Key、TDX Key。
-- 臺鐵即時資料與票價 API 需要有效的 TDX 認證。
 - 台股資訊與新聞摘要僅供參考，不構成投資建議。
 - 管理員指令請正確設定 `ADMINS`，避免未授權使用。
 
